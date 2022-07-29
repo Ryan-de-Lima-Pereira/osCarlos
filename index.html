@@ -8,6 +8,7 @@
     <title>Os Carlos</title>
 </head>
 <body>
+    <!--Navbar-->
     <div class="flex items-center container-xl bg-black text-white px-4 py-3">
         <div class="flex font-bold ">
             <h1 class="text-4xl text-yellow-400">OsCarlos</h1>
@@ -15,59 +16,111 @@
         <div class="ml-6 text-base">
             <ul>
                 <li class="space-x-6">
-                    <a href="">Home</a>
-                    <a href="">Edições</a>
+                    <a href="index.html" class="font-medium hover:text-yellow-400">Home</a>
+                    <a href="edicoes.html" class="font-medium hover:text-yellow-400">Edições</a>
                 </li>
             </ul>
         </div>
     </div>
-    <div class="container mx-auto">    
-        <div class="mt-10 mx-auto shadow-xl border">
-            <div class="flex items-center p-4">
+    <!--/Navbar-->
+    <!--Corpo da pagina-->
+    <div class="container mx-auto mt-10 shadow border rounded">    
+        <!--Apresentação-->
+        <div class="flex items-center p-4">
+            <div>
+                <h1 class="text-4xl font-bold">Sobre nós</h1>
+                <p class="mt-6 font-medium text-gray-800">OsCarlos é uma premiação feita pelo servidor DropNet aonde são escolhidos os melhores das categorias que os participantes do servidor selecionam. Os melhores são premiados com um PNG especial.</p>
+            </div>
+            <div class="mx-20 mb-6">
+                <img src="/img/Trofeu.png" alt="" class="w-30">
+            </div>
+        </div>
+
+        <hr>
+        <!--/apresentação-->
+
+        <!--Academia-Sobre-->
+        <div class="p-4 text-center">
+            <h1 class="text-4xl mt-6 font-bold">A Academia</h1>
+            <p class="mt-6 font-medium text-gray-800">A Academia são os responsaveis por efetuar o evento, eles são selecionados entre os membros da DropNet. Não se sabe como é feita a seleção.</p>
+            <p class="font-medium text-gray-800">Os participantes podem mudar de ano após ano, mas alguns membros são bem recorrentes, sendo eles:</p>
+        </div>
+        <!--/Academia-Sobre-->
+        <!--Cards de membros-->
+        <div class="flex space-x-4 p-4 mb-6">
+            <div class="transition container border shadow p-4 text-center hover:border-blue-300 hover:scale-105 duration-500 delay-100 rounded">
                 <div>
-                    <h1 class="text-4xl">Sobre nós</h1>
-                    <p class="mt-10">OsCarlos é uma premiação feita pelo servidor DropNet aonde são escolhidos os melhores das categorias que os participantes do servidor selecionam. Os melhores são premiados com um PNG especial.</p>
+                    <img src="/img/cardsAcademia/Terno.jpg" alt="" class="w-20 h-20 rounded-full mx-auto">
                 </div>
-                <div class="mx-20">
-                    <img src="/img/Trofeu.png" alt="" class="w-30">
-                </div>
-            </div>
-
-            <hr>
-
-            <div class="p-4">
-                <h1 class="text-4xl mt-6 text-center">A Academia</h1>
-                <p class="mt-10">A Academia são os responsaveis por efetuar o evento, eles são selecionados entre os membros da DropNet. Não se sabe como é feita a seleção.</p>
-                <p>Os participantes podem mudar de ano após ano, mas alguns membros são bem recorrentes, sendo eles:</p>
-            </div>
-            <div class="flex">
-                <div class="container border shadow">
-                    <div>
-                        <img src="./img/Terno.jpg" alt="" class="w-20 h-20 rounded-full">
-                    </div>
-                    <div></div>
+                <div class="mt-4 text-xl">
+                    Rei delas
                 </div>
             </div>
-
-            <div class="mt-4">
-
-            <h1 class="text-4xl mt-6">Categorias</h1>
-            <p class="mt-2">As categorias participantes de ano em ano podem variar, mas as mais comuns de se ter são:</p>
-            <div class="mt-4">
-                <ul class="list-disc ml-6">
-                    <li>Frases do ano</li>
-                    <li>Videos do ano</li>
-                    <li>Imagens do ano</li>
-                    <li>Musicas do ano</li>
-                    <li>Personalidade do ano</li>
-                    <li>Acontecimentos do ano</li>
-                    <li>Criações</li>
-                    <li>Tretas do ano</li>
-                    <li>Deuses do ano</li>
-                </ul>
+            <div class="transition container border shadow p-4 text-center hover:border-blue-300 hover:scale-105 duration-500 delay-100 rounded">
+                <div>
+                    <img src="./img/cardsAcademia/Fortinus_1.png" alt="" class="w-20 h-20 rounded-full mx-auto">
+                </div>
+                <div class="mt-4 text-xl">
+                    WaWawa
+                </div>
             </div>
-            
+            <div class="transition container border shadow p-4 text-center hover:border-blue-300 hover:scale-105 duration-500 delay-100 rounded">
+                <div>
+                    <img src="./img/cardsAcademia/Degnis.png" alt="" class="w-20 h-20 rounded-full mx-auto">
+                </div>
+                <div class="mt-4 text-xl">
+                    Juros Simples
+                </div>
+            </div>
+            <div class="transition container border shadow p-4 text-center hover:border-blue-300 hover:scale-105 duration-500 delay-100 rounded">
+                <div>
+                    <img src="./img/cardsAcademia/Kuduario Kuduario.png" alt="" class="w-20 h-20 rounded-full mx-auto">
+                </div>
+                <div class="mt-4 text-xl">
+                    Kuduario Kuduario
+                </div>
+            </div>
+        </div>
+        <!--/Cards de membros-->
+
+        <hr> 
+
+        <div class="mt-4 p-4 ml-4 text-center">
+            <h1 class="text-4xl mt-6 font-bold">Categorias</h1>
+            <p class="mt-6 font-medium text-gray-800">As categorias participantes de ano em ano podem variar, mas as mais comuns de se ter são:</p>
+        </div>
+        <div class="flex mt-4 p-4 ml-4 justify-around mb-6">
+            <ul class="list-disc font-medium">
+                <li>Frases do ano</li>
+                <li>Videos do ano</li>
+                <li>Imagens do ano</li>
+                <li>Musicas do ano</li>
+                <li>Personalidade do ano</li>
+            </ul>
+            <ul class="list-disc font-medium">
+                <li>Playlists diferentes</li>
+                <li>Acontecimentos do ano</li>
+                <li>Criações</li>
+                <li>Tretas do ano</li>
+                <li>Deuses do ano</li>
+            </ul>
         </div>
     </div>
+    <!--Rodapé-->
+    <footer class="p-6 mb-6 mt-6">
+        <div class="flex justify-center items-center text-xl">
+            <h1 class="text-green-500 font-bold">Drop</h1>
+            <h2 class="text-blue-500 font-bold">Net</h2>
+        </div>
+        <div class="flex justify-center items-center font-medium">
+            <p>©2022 Todos os direitos reservados</p>
+        </div>
+    </footer>
 </body>
 </html>
+
+<!--Algumas coisas padrões-->
+
+<!--Margin top 6 -->
+<!--Padding 4 -->
+<!--Margin bot 6 -->
